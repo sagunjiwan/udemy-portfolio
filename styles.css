@@ -1,0 +1,163 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container.container-1 {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+
+/* One Heading */
+
+
+
+.one-heading {
+  height: 45px;
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar */
+.navbar-pic {
+  width: 9.375rem;
+  height: 3.75rem;
+}
+
+.hero-image {
+  position: relative;
+  object-fit: contain;
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.jumbotron-fluid {
+
+  position: absolute;
+  width: 30rem;
+  left: 4.8rem;
+  top: 3.4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+  padding: 2.4rem;
+  background-color: #FFF;
+  
+
+}
+.jumbotron-fluid.jumbo{
+  padding-left: 20px;
+}
+
+@media (max-width: 580px) {
+  .hero-image {
+    width: 100%;
+    vertical-align: middle;
+
+  }
+
+
+  .jumbotron-fluid {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    background: #fff;
+    width: 100vw;
+    
+  }
+}
+
+.partners-banner {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.partners-banner h2 {
+  margin-bottom: 20px;
+}
+
+.partners-banner p {
+  margin-bottom: 40px;
+}
+
+.partner-logos img {
+  max-width: 150px;
+  margin: 0 10px;
+}
+
+
+/* Single Feature Content Card */
+.feature-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.feature-card .row {
+  align-items: center;
+}
+
+.feature-card .feature-img {
+  background-color: #f8f9fa;
+  padding: 20px;
+
+}
+
+.feature-card .feature-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-card .feature-content {
+  padding: 20px;
+}
+
+.feature-card h3 {
+  margin-top: 0;
+}
+
+/* Footer Section-1 */
+.bg-col {
+  background-color: #2d2f31;
+}
+
+.card-bodyAd {
+  background-color: #2d2f31;
+}
+
+.card {
+  position: relative;
+
+}
+
+.btn-top-rightt {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-bottom-rightt {
+  position: absolute;
+  bottom: 1px;
+  right: 10px;
+}
+
+.card.footerBackground {
+  border-color: #2d2f31;
+  background-color: #2d2f31;
+  ;
+}
